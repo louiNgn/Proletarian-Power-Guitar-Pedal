@@ -1274,6 +1274,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_SparkFun-Capacitor:47uF_35V_20%"
 			(pin_numbers
 				(hide yes)
@@ -2881,6 +3004,18 @@
 		(uuid "9964bf08-ab68-4788-9470-9a9530c26ab9")
 	)
 	(junction
+		(at 203.2 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a51e08e9-7706-43db-8804-d20bded32674")
+	)
+	(junction
+		(at 203.2 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa79956f-8260-4675-82f6-fc22306e5e4c")
+	)
+	(junction
 		(at 138.43 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2903,6 +3038,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5f9280d-7275-4c79-9b6e-ac5a52f6fe93")
+	)
+	(junction
+		(at 207.01 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa256ffb-143e-41e5-9489-3315adfd34eb")
 	)
 	(junction
 		(at 114.3 115.57)
@@ -3009,6 +3150,16 @@
 			(type default)
 		)
 		(uuid "1755f2a4-9217-48c5-a722-c02ac2db7d1c")
+	)
+	(wire
+		(pts
+			(xy 179.07 59.69) (xy 203.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18abede9-2e03-4be5-ad52-e7b7a3377398")
 	)
 	(wire
 		(pts
@@ -3302,6 +3453,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 67.31) (xy 207.01 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62485c84-37d8-46c3-87c0-1a4892e4ed5c")
+	)
+	(wire
+		(pts
 			(xy 176.53 125.73) (xy 172.72 125.73)
 		)
 		(stroke
@@ -3319,6 +3480,16 @@
 			(type default)
 		)
 		(uuid "6353b47e-ed46-41c8-84b5-2a3fdc5afc90")
+	)
+	(wire
+		(pts
+			(xy 203.2 59.69) (xy 207.01 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63dfd959-ff17-4b62-9945-0f9ca2a28d76")
 	)
 	(wire
 		(pts
@@ -3512,6 +3683,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 67.31) (xy 203.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1eae4f-a1f5-4b95-a986-1a63cd737bbe")
+	)
+	(wire
+		(pts
 			(xy 38.1 102.87) (xy 35.56 102.87)
 		)
 		(stroke
@@ -3682,6 +3863,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 67.31) (xy 207.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c6e4ac-fcba-4083-9d2a-0c8bef58f4f1")
+	)
+	(wire
+		(pts
 			(xy 121.92 147.32) (xy 114.3 147.32)
 		)
 		(stroke
@@ -3689,6 +3880,16 @@
 			(type default)
 		)
 		(uuid "d5004148-7f03-4d9a-a708-e0780d3a73be")
+	)
+	(wire
+		(pts
+			(xy 207.01 59.69) (xy 207.01 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5620591-5c1e-42af-91d2-ce34c334d959")
 	)
 	(wire
 		(pts
@@ -4138,7 +4339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical"
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal"
 			(at 43.18 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4376,7 +4577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 181.3052 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4769,7 +4970,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical"
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal"
 			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4812,6 +5013,85 @@
 			(project "ProletarianPower_PedalPCB"
 				(path "/085c9c93-a710-40cc-b026-d5b91f2341e3"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 179.07 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53288b7b-5a6d-4450-ac7b-0c424cc328f6")
+		(property "Reference" "H1"
+			(at 181.61 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 181.61 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd2b1e97-227a-4eee-b299-ae59b7abec75")
+		)
+		(instances
+			(project "ProletarianPower_PedalPCB"
+				(path "/085c9c93-a710-40cc-b026-d5b91f2341e3"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -4916,7 +5196,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized_Small"
+		(property "Value" "1uF"
 			(at 144.78 96.774 90)
 			(hide yes)
 			(show_name no)
@@ -5002,6 +5282,85 @@
 			(project "ProletarianPower_PedalPCB"
 				(path "/085c9c93-a710-40cc-b026-d5b91f2341e3"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 179.07 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "582b0351-297e-41d3-b066-dba4f087aa99")
+		(property "Reference" "H3"
+			(at 181.61 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 181.61 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 179.07 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 179.07 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dbc03ca-2893-45d5-81da-ce6e60f629fc")
+		)
+		(instances
+			(project "ProletarianPower_PedalPCB"
+				(path "/085c9c93-a710-40cc-b026-d5b91f2341e3"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5396,6 +5755,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 203.2 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64dc1bb9-793b-4185-a656-1e9d055079cc")
+		(property "Reference" "H2"
+			(at 205.74 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 205.74 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 203.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 203.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfc41919-a65f-44ed-8638-9ccb9f3d625c")
+		)
+		(instances
+			(project "ProletarianPower_PedalPCB"
+				(path "/085c9c93-a710-40cc-b026-d5b91f2341e3"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 82.55 68.58 0)
 		(unit 1)
@@ -5679,7 +6117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 223.52 104.4448 0)
 			(hide yes)
 			(show_name no)
@@ -5793,22 +6231,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "aee7414c-aa64-4b02-846a-d8fd2998179d")
+			(uuid "aee7414c-aa64-4b02-846a-d8fd2998179e")
 		)
 		(pin "4"
-			(uuid "bb591c07-8f24-4c2b-b7f9-c6ae67d1e866")
+			(uuid "bb591c07-8f24-4c2b-b7f9-c6ae67d1e867")
 		)
 		(pin "1"
-			(uuid "e2b2e60a-8452-46cf-b807-b0104ed7becf")
+			(uuid "e2b2e60a-8452-46cf-b807-b0104ed7bed0")
 		)
 		(pin "3"
-			(uuid "973a8e81-0ff1-4016-82d0-9f557a7569d5")
+			(uuid "973a8e81-0ff1-4016-82d0-9f557a7569d6")
 		)
 		(pin "6"
-			(uuid "0b9be529-bad7-4dd0-b256-c998a306d99c")
+			(uuid "0b9be529-bad7-4dd0-b256-c998a306d99d")
 		)
 		(pin "5"
-			(uuid "d73ef63b-6dec-478f-a2ae-c344adeb773d")
+			(uuid "d73ef63b-6dec-478f-a2ae-c344adeb773e")
 		)
 		(instances
 			(project "ProletarianPower_PedalPCB"
@@ -6061,7 +6499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 173.6852 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6236,7 +6674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 155.9052 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6472,7 +6910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 121.92 136.8552 0)
 			(hide yes)
 			(show_name no)
@@ -7107,7 +7545,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized_Small"
+		(property "Value" "470nF"
 			(at 100.33 94.234 90)
 			(hide yes)
 			(show_name no)
@@ -7292,6 +7730,84 @@
 				(path "/085c9c93-a710-40cc-b026-d5b91f2341e3"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 207.01 69.85 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5f7f398-bd7d-46a5-b4f3-b91ebcd8958c")
+		(property "Reference" "#PWR012"
+			(at 207.01 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 73.66 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "859f7b36-383d-4174-baaa-53fff4761b79")
+		)
+		(instances
+			(project "ProletarianPower_PedalPCB"
+				(path "/085c9c93-a710-40cc-b026-d5b91f2341e3"
+					(reference "#PWR012")
+					(unit 1)
 				)
 			)
 		)
@@ -7802,6 +8318,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 203.2 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3d33456-bb2f-4544-b0f5-00b1ad45d03b")
+		(property "Reference" "H4"
+			(at 205.74 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 205.74 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 203.2 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 203.2 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bcbe79c-8827-418d-8c1a-8e828002f2f3")
+		)
+		(instances
+			(project "ProletarianPower_PedalPCB"
+				(path "/085c9c93-a710-40cc-b026-d5b91f2341e3"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 113.03 68.58 0)
 		(unit 1)
@@ -7913,7 +8508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 115.2652 167.64 0)
 			(hide yes)
 			(show_name no)
