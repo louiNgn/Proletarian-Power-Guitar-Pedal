@@ -93,10 +93,10 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
@@ -121,9 +121,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../production/")
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm"
@@ -132,21 +132,21 @@
 		(at 115.355 66.965 -90)
 		(descr "Soldered wire connection, for 2 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
 		(tags "connector wire 0.127sqmm")
-		(property "Reference" "SW2"
-			(at 1.85 -1.645 90)
+		(property "Reference" "FUN_SW"
+			(at -4.715 0 270)
 			(layer "F.SilkS")
-			(uuid "7682d27f-1b74-4953-879c-dec7ba1d7629")
+			(uuid "2a579bba-f8da-40b9-a9f3-c830f5e3ee12")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.2)
 				)
 			)
 		)
 		(property "Value" "SW_SPST"
 			(at 1.85 2.05 90)
 			(layer "F.Fab")
-			(uuid "c105dc5d-9d0f-42f9-9f27-a2afd2a28438")
+			(uuid "8e411923-b409-4a80-b98c-b16e3ef26db1")
 			(effects
 				(font
 					(size 1 1)
@@ -158,7 +158,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d34e0cf-60e6-4b1d-849a-130cb195f6e1")
+			(uuid "725e6bf3-11f2-437e-8a5b-3b84638f65b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,7 +169,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd0cbd4d-3458-42d2-a9a7-135e0e4522c1")
+			(uuid "d5c7b675-fa76-4996-9ce7-7f9cb594c092")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,7 +296,7 @@
 		(descr "M Series, 6.35mm (1/4in) mono jack, switched, with full threaded nose and straight PCB pins, https://www.neutrik.com/en/product/nmj4hfd2")
 		(tags "neutrik jack m")
 		(property "Reference" "J2"
-			(at 6.35 -3 0)
+			(at 6.35 7.98 0)
 			(layer "F.SilkS")
 			(uuid "28dce48e-d423-4001-9195-757b011a624c")
 			(effects
@@ -1978,7 +1978,7 @@
 		(descr "M Series, 6.35mm (1/4in) mono jack, switched, with full threaded nose and straight PCB pins, https://www.neutrik.com/en/product/nmj4hfd2")
 		(tags "neutrik jack m")
 		(property "Reference" "J1"
-			(at 6.35 -3 0)
+			(at 6.35 8.03 0)
 			(layer "F.SilkS")
 			(uuid "619f8641-50db-4946-b240-128482f7e5f9")
 			(effects
@@ -3052,7 +3052,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D4"
-			(at 3.81 -2.12 90)
+			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "a4bbe17a-5908-4790-a02e-f2f2cf511c4e")
 			(effects
@@ -3496,7 +3496,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C0"
-			(at 1 -3.25 0)
+			(at 1.04 3.5 0)
 			(layer "F.SilkS")
 			(uuid "ff494b4b-f33d-453d-926c-30c172f73168")
 			(effects
@@ -5213,7 +5213,7 @@
 			(effects
 				(font
 					(size 1.5 1.5)
-					(thickness 0.15)
+					(thickness 0.3)
 				)
 			)
 		)
@@ -6942,7 +6942,7 @@
 		(property "Reference" "C1"
 			(at 1 -3.75 0)
 			(layer "F.SilkS")
-			(uuid "548ba70f-bd90-4591-a048-b4cd4c826765")
+			(uuid "a4093e4a-88c5-4156-af29-fba6d8f907e9")
 			(effects
 				(font
 					(size 1 1)
@@ -6953,7 +6953,7 @@
 		(property "Value" "470nF"
 			(at 1 3.75 0)
 			(layer "F.Fab")
-			(uuid "921f70cc-fbcd-442b-9d7f-b1eb4d7e4321")
+			(uuid "7bda15ac-8c6a-4cae-9f30-b470cf439e3b")
 			(effects
 				(font
 					(size 1 1)
@@ -6965,7 +6965,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8edccc08-664b-42e9-b5d9-94dfca082a63")
+			(uuid "5fbd2240-f7a2-414d-93e5-fc1d29f8c2c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +6976,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71bb38d3-3fba-4753-9b84-ec81929f3696")
+			(uuid "8c6a80c0-6342-499c-8a26-e9fbd7fa96e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8341,7 @@
 		(descr "C, Axial series, Axial, Horizontal, pin pitch=7.5mm, length*diameter=5.1*3.1mm^2, http://www.vishay.com/docs/45231/arseries.pdf")
 		(tags "C Axial series Axial Horizontal pin pitch 7.5mm  length 5.1mm diameter 3.1mm")
 		(property "Reference" "C10"
-			(at 3.75 -2.67 90)
+			(at 3.75 0 90)
 			(layer "F.SilkS")
 			(uuid "7bd37415-0c7d-4e4c-a163-670fbac9daa9")
 			(effects
@@ -8750,7 +8750,7 @@
 		(property "Reference" "C5"
 			(at 1 -3.25 0)
 			(layer "F.SilkS")
-			(uuid "7cd9cadb-e199-466b-8e4d-cbf5efdd01a9")
+			(uuid "ba015d67-38a4-47b1-afb6-5da5b30b6b1d")
 			(effects
 				(font
 					(size 1 1)
@@ -8761,7 +8761,7 @@
 		(property "Value" "1uF"
 			(at 1 3.25 0)
 			(layer "F.Fab")
-			(uuid "9d86b49c-61af-49a3-81c9-967258a29278")
+			(uuid "2f34ceed-bd2c-470f-844a-41679cbf395e")
 			(effects
 				(font
 					(size 1 1)
@@ -8773,7 +8773,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da6ed3d4-171e-4fdb-8fe7-293b8d95960f")
+			(uuid "91635aa5-05c0-4e45-83ec-0ecef91d9e1e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,7 +8784,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b200d469-5314-4a18-94be-59d6692a59eb")
+			(uuid "2f500ab9-8b00-4898-aad3-fd50c35f2b51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,7 +9919,7 @@
 		(descr "8-lead surface-mounted (SMD) DIP package, row spacing 7.62mm (300 mils)")
 		(tags "SMD DIP DIL PDIP SMDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
-			(at 0 -6.14 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "f0eaa5a7-472c-45ec-b741-a8fa70530281")
 			(effects
@@ -10441,9 +10441,9 @@
 		(descr "C, Axial series, Axial, Horizontal, pin pitch=7.5mm, length*diameter=5.1*3.1mm^2, http://www.vishay.com/docs/45231/arseries.pdf")
 		(tags "C Axial series Axial Horizontal pin pitch 7.5mm  length 5.1mm diameter 3.1mm")
 		(property "Reference" "C9"
-			(at 3.75 -2.67 90)
+			(at 3.75 0 90)
 			(layer "F.SilkS")
-			(uuid "5604312d-5d77-471f-b802-dd1a71de479f")
+			(uuid "34a20d0f-cf69-41c0-8b0c-2e07f785ad95")
 			(effects
 				(font
 					(size 1 1)
@@ -10454,7 +10454,7 @@
 		(property "Value" "1uF"
 			(at 3.75 2.67 90)
 			(layer "F.Fab")
-			(uuid "25c30ead-b528-4243-8e65-3c2daa023200")
+			(uuid "0d985f2f-7b88-47a7-b3c1-4a88afe55eb9")
 			(effects
 				(font
 					(size 1 1)
@@ -10466,7 +10466,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b31f8bdb-8905-4a27-af90-89f0b0304791")
+			(uuid "00735d29-65b7-4d70-87b9-d6118d00b7a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10477,7 +10477,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6bbe92e9-11a9-4545-8d71-be6bcd51e51b")
+			(uuid "1305dde8-8151-491e-8200-8730599a92aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,7 +10632,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D2"
-			(at 3.81 -2.12 0)
+			(at 3.81 0.005 0)
 			(layer "F.SilkS")
 			(uuid "88322d48-6726-442d-8413-1ffdd58562a6")
 			(effects
@@ -11076,7 +11076,7 @@
 		(descr "C, Axial series, Axial, Horizontal, pin pitch=7.5mm, length*diameter=5.1*3.1mm^2, http://www.vishay.com/docs/45231/arseries.pdf")
 		(tags "C Axial series Axial Horizontal pin pitch 7.5mm  length 5.1mm diameter 3.1mm")
 		(property "Reference" "C3"
-			(at 3.75 -2.67 0)
+			(at 3.75 0 0)
 			(layer "F.SilkS")
 			(uuid "c62a687a-a05e-447f-9454-eafca981729e")
 			(effects
@@ -11273,7 +11273,7 @@
 			(effects
 				(font
 					(size 1.5 1.5)
-					(thickness 0.15)
+					(thickness 0.3)
 				)
 			)
 		)
@@ -11547,7 +11547,7 @@
 			(uuid "3620591a-620e-4609-8289-daa8458f20e3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2 2.5 0)
+			(at 7 2.5 0)
 			(layer "F.Fab")
 			(uuid "4e555a31-c8c3-4228-8456-58a1681e6d9f")
 			(effects
@@ -11912,9 +11912,9 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D1"
-			(at 3.81 -2.12 0)
+			(at 3.81 0 0)
 			(layer "F.SilkS")
-			(uuid "5be8d506-7ed8-45f8-a8a1-577a750277da")
+			(uuid "127c4976-1072-40c3-b256-a0de093f5770")
 			(effects
 				(font
 					(size 1 1)
@@ -11925,7 +11925,7 @@
 		(property "Value" "1N4148"
 			(at 3.81 2.12 0)
 			(layer "F.Fab")
-			(uuid "e9a5ab74-9eca-4b3b-af61-c2cb0b299b8e")
+			(uuid "c38e57bd-1e32-4b8c-b55f-bdb693bd60dc")
 			(effects
 				(font
 					(size 1 1)
@@ -11937,7 +11937,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68bed358-34c5-4351-a55a-0d70293b322e")
+			(uuid "791c2edc-71a0-43c4-a517-fc9aad91d443")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11948,7 +11948,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8a701f41-0f95-4a34-896f-cf9d5ae4856f")
+			(uuid "718ac4cd-4d7a-426e-9b09-2fa7895f99bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12214,7 +12214,7 @@
 		(descr "C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf")
 		(tags "switch DPDT")
 		(property "Reference" "SW3"
-			(at 2.75 -1.6 0)
+			(at 2.5 1.75 0)
 			(layer "F.SilkS")
 			(uuid "75d9d780-1ce3-447b-aa63-787049875cad")
 			(effects
@@ -14072,7 +14072,7 @@
 			(effects
 				(font
 					(size 1.5 1.5)
-					(thickness 0.15)
+					(thickness 0.3)
 				)
 			)
 		)
@@ -14428,7 +14428,7 @@
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "8a8f189a-942a-4014-9eea-504c7b0fd236")
+			(uuid "888ec12b-31a2-481d-8eff-05b355aa4c84")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -14441,7 +14441,7 @@
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "b55abf07-5234-4ca3-8b8e-5208400be431")
+			(uuid "a86d17d4-5906-483d-b822-3a2989debef4")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -14454,7 +14454,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "751f59bf-0d4d-454b-b334-80898c9e4614")
+			(uuid "d6155055-f2bb-49c1-8fc7-5da7402d04e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,7 +14466,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f190fe21-c1ea-4ec4-ab01-a9eb50575370")
+			(uuid "d778008d-11f5-499e-aa95-a24af33ef94e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40675,6 +40675,28 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "30cec7cb-e94a-4379-8325-b4548aab8524")
+	)
+	(gr_text "ON/OFF\n"
+		(at 100.5 108.25 0)
+		(layer "F.SilkS")
+		(uuid "45d94528-a225-4bb5-8106-43ccaf5dc1bb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "9V"
+		(at 106.25 57 90)
+		(layer "F.SilkS")
+		(uuid "9a886521-0f03-446b-869a-759efb91c97d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
 	)
 	(segment
 		(start 112.155 65.015)
